@@ -1,0 +1,1098 @@
+:root {
+    --blue: #1e90ff;
+    --white: #fff;
+    --black: #242424;
+    --se : 
+}
+
+.bg-ag {background-color: var(--white);}
+.txt-ag {color: var(--white);}
+.bg-se {background-color: var(--se);}
+
+
+
+
+/* ------------------- H E A D E R ---------------------   */
+
+
+header {
+    background: #eee;
+}
+
+nav {
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    
+}
+
+
+
+#logo {
+    background: url(../img/logo.png) 80%/cover;
+    width: 50px;
+    height: 50px;
+    margin-right: 1px;
+}
+
+.container ul li{
+    text-align: center;
+}
+
+.container ul li a {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.3333733333;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.container ul li a:hover {
+    color: #000000;
+}
+
+#chapter-nav {
+    padding: 9px 0;
+}
+
+#chapter-nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 120px;
+    flex-shrink: 1;
+}
+
+#chapter-nav ul li {
+    height: 100px;
+    width: 110px;
+    padding: 0 15px;
+    
+}
+
+#chapter-nav ul li a:hover {
+    color: var(--blue);
+}   
+
+#chapter-nav ul li a img {
+    display: flex;
+    vertical-align: top;
+    margin: auto;
+    
+}
+
+
+#chapter-nav ul li span {
+    font-size: .9em;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+
+
+.reminder {
+    max-width: 860px;
+    margin: auto;
+    padding: 0 5px;
+}
+
+.reminder h2 {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.4211026316;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.reminder h2 a {
+    color: var(--blue);
+}
+
+.reminder h2 a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+
+/* ---------------------- M A I N -------------------------    */
+
+
+
+.wrapper .content1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+    background-image: url(../img/hero_iphone15pro_horizontal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: #fff;
+    top: 5%;
+}
+
+.text1 h5 {
+    color: red;
+    font-family: 'Helvetica';
+}
+
+.text1 h3 {
+    margin-top: 10px;
+}
+
+
+.text1 p {
+    margin-top: 10px;
+    font-size: 1.3em;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    margin-top: 10px;
+    gap: 5vw;
+}
+
+.link .btn1 {
+    padding: 7px 15px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 15px;
+    margin-top: 7px;
+    font-family: Helvetica ;
+    transition: .3s ease-in-out;
+}
+
+.link .btn2 {
+    font: 1em 'Helvetica';
+    color: var(--blue);
+    margin-top: 7px;
+    transition: .5s ease-in-out;
+}
+
+.link .btn1:hover {
+    background-color: var(--white);
+    color: #000;
+}
+
+.link .btn2:hover {
+    text-decoration: underline;
+    
+}
+
+.wrapper .content2 {
+    background-image: url(../img/hero_iphone15_large.jpg);
+    background-color: #fff ;
+}
+
+.text2 h2 {
+    color: #000;
+    font: 700 1.8em SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 5px 0;
+}
+
+.text2 p {
+    color: #000;
+}
+
+.text2 .link .btn1:hover {
+    border: 1px solid #000;
+    margin-bottom: 30px; 
+}
+
+.link2 {
+    flex-direction: column;
+}
+
+
+.wrapper2 .row {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px ;
+}
+
+.text3 p {
+    font-size: 1.3em;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.text3 h3 {
+    font: bold 2em 'SF Pro Display';
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #1e3791 0%, #2948b1 40%, #3153c6 55%, #385fda 60%);
+}
+
+.content3res{
+    background-image: url(../img/iphone_se_hero__small.jpg);
+    background-position: center;
+    background-color: #fdfdfb;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.link3 .btn2 {
+    padding: 0 0 10px 0;
+}
+
+
+
+.wrapper3 .text4{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 30vh;
+}
+
+.text4 {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.text4 h5 {
+    font-size: 1em;
+    padding: 0 0 10px 0;
+}
+
+.text4 h2 {
+    font-size: 2em;
+}
+
+.content4res {
+    background-image: url(../img/colored-guy-small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+
+/* .wrapper4 {
+    margin: 20px 0;
+} */
+
+.wrapper4 .head1 {
+    padding: 15px 0;
+    color: #000;
+    text-align: center;
+    font: bold 2em 'SF Pro Display';
+}
+
+.wrapper4 .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.wrapper4 .row article {
+    padding: 20px;
+}
+
+
+.wrapper4 .row .colours {
+    margin: 15px 0;
+}
+
+.wrapper4 .row h6 {
+    color: red;
+    padding: 5px 0;
+}
+
+.wrapper4 .row h5 {
+    font: 1.1em  'SF Pro Display';
+    padding: 5px 0 25px 0;
+}
+
+.wrapper4 .row p {
+    font: 1em  'SF Pro Display';
+}
+
+.wrapper4 .row .link {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper4 .row .link .btn1 {
+    padding: 5px 10px;
+}
+
+.wrapper4 .row .link .btn1:hover {
+    border: 1px solid #000;
+}
+
+.wrapper4 .row .link .btn2 {
+    margin: 5px 0 20px 0 ;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    color: #cac7c7;
+    margin: 50px 0;
+}
+
+
+.aboutsize, .texture, .cpu, .battery{
+    font-family: 'SF Pro Display';
+    margin: 0 0 50px 0 ;
+}
+
+.texture div, .cpu div, .battery div, .faceid div {
+    margin-bottom: 10px;
+}
+
+.aboutsize h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.wrap-colored {
+    background-color: #eaeaea;
+}
+
+.wrapper5 {  
+    padding: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 .card1, .row1 .card2, .row1 .card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    margin: 10px 10px ;
+    height: 80vh;
+}
+
+.row1 .card1 .card-img1 {
+    background-image: url(../img/2iphone.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+
+.card1 h2, .card3 h2 {
+    padding: 30px 0 0 0;
+    font-size: 1.3em;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+
+.row1 .card2 .card-img2 {
+    background-image: url(../img/emoji-blow.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+
+.card2 h2 {
+    padding: 15px 0 0 0;
+    font: bold 1.3em 'SF Pro Display';
+    text-align: center;
+}
+
+.card2 h5 {
+    padding: 30px 0 0 0;
+    font: 1.1em  'SF Pro Display';
+}
+
+.card2 h6 {
+    margin: 15px 0 0 0;
+    font: .9em  'SF Pro Display';
+    text-align: center;
+}
+
+
+.row1 .card3 .card-img3 {
+    margin: 20px 0 0 0 ;
+    background-image: url(../img/card-apple.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+}
+
+.card3 h5 {
+    padding: 10px 0 0 0;
+    font: 1em  'SF Pro Display';
+    text-align: center;
+}
+
+
+.wrapper5 .card4 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    /* background-image: url(../img/curly-iphones-large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+
+.wrapper5 .card4 h3 {
+    font: 700 1.5em 'SF Pro Display';
+    text-align: center;
+}
+.wrapper5 .card4 p {
+    text-align: center;
+    color: #000;
+    font: 1em  'SF Pro Display';
+    padding-top: 20px;
+    
+}
+
+
+.card4img img{
+    width: 100%;
+}
+
+.wrapper6 .row2 {
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 5px 0;
+    padding-top: 20px;
+    
+}
+
+
+
+.magsafe-text h3 {
+    font: bold 2em 'SF Pro Display';
+
+}
+
+.magsafe-text p {
+    padding: 15px 0 0 0;
+    font-size: 1.2em;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.magsafe-img{
+    background-image: url(../img/3iphone.jpg);
+    background-position: center;
+    background-color: #fdfdfb;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.wrapper6 .row2reverse {
+    flex-direction: column-reverse;
+}
+
+.airtag-text h3 {
+    font: bold 2em 'SF Pro Display';
+
+}
+
+.airtag-text p {
+    padding: 15px 0 0 0;
+    font-size: 1.2em;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.airtag-img{
+    background-image: url(../img/airtags-desktop.jpg);
+    background-position: center;
+    background-color: #fdfdfb;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+.airmax-text h3{
+    font: bold 2em 'SF Pro Display';
+}
+
+
+.airmax-text p {
+    padding: 15px 0 0 0;
+    font-size: 1.2em;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.airmax-img {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/airmax-mobile.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.wrapper7 {
+    padding: 20px 0 ;
+}
+
+.wrapper7 .row3 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper7 .row3 article {
+    padding: 20px ;
+}
+
+.wrapper7 .row3 article p {
+    font: 1.3em 'SF Pro Display';
+    letter-spacing: .8px;
+    padding: 5px 0;
+}
+
+
+.wrapper8 .why-iphone1-img{
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/why-iphone1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.wrapper9 .why-iphone2-img {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/why-iphone2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper9 .why-iphone3-img {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/why-iphone3-largest.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper10 .row2 {
+    flex-direction: column;
+}
+
+
+.wrapper10 .last-apple-text h3 {
+    font: bold 2em 'SF Pro Display';
+}
+
+.wrapper10 .get-more-iphone-text p, .wrapper10 .last-apple-text p {
+    padding: 15px 0 0 0;
+    font-size: 1.2em;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+
+.wrapper10 .row2 .get-more-iphone-img {
+    background-image: url(../img/get-more-iphone-large-edited.jpg);
+    background-position: center;
+    background-color: #fdfdfb;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+
+.wrapper10 .row2 .last-apple-img {
+    background-image: url(../img/last-apple-small.jpg);
+    background-position: center;
+    background-color: #fdfdfb;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+/* ----------------- F O O T E R ---------------------     */
+
+.foot {
+    max-width: 960px;
+    margin: auto;
+}
+
+.foot .agreement {
+    margin: 0 15px;
+}
+
+.foot2 .alma, .foot2 .credits {
+    margin: 0 15px;
+}
+
+.agreement p, .agreement ol {
+    color: #0000008f;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.agreement hr {
+    margin: 20px 0;
+    height: 1px;
+    width: 100%;
+    color: #0000008f;
+}
+
+
+.foot2 {
+    max-width: 960px;
+    margin: auto;
+}
+
+.foot2 .alma {
+    color: #0000008f;
+    font-family:  "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+.foot2 .alma .fa-apple, .fa-angle-right {
+    font-size: 1.2em;
+    padding-right: 5px;
+    color: #0000008f;
+}
+
+.fa-angle-right {
+    font-size: 1em;
+}
+
+
+.credits {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3vh;
+    flex-wrap: wrap;
+    color: #0000008f;
+    font-family:  "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    
+}
+
+.foot3 {
+    padding: 15px 0;
+    color:#0000008f;
+    font-family:  "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.foot3 hr {
+    margin: 20px 0;
+    height: 1px;
+    width: 100%;
+    color: #0000008f;
+}
+
+.foot3 .copywrite {
+    font-size: .85em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------- D E S K T O P  V E R S I O N ---------------------  */
+ 
+@media (min-width: 768px) {
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .container ul{
+        display: flex;
+        
+    }
+    
+    .container ul li{
+        padding: 0 10px;
+    }
+
+    .container ul li a{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    #logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .reminder h2 {
+        font-size: 1.5em;
+    }
+
+    #content1res {
+        height: 95vh;
+        background-image: url(../img/hero_iphone15pro-main.jpg);
+    }
+
+    .link {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5vh;
+        margin-top: 10px;
+    }
+
+    .link .btn2 {
+        font-size: 1.5em;
+    }
+
+    .text2 h2 {
+        font-size: 2.5em;
+    }
+
+
+    .wrapper2 .row {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .content3res{ 
+        width: 50%;
+        height: 90vh;
+    }
+
+    .text3 {
+        margin-left: 5vw;
+    }
+
+    .text3 h3 {
+        font: bold 3em 'SF Pro Display';
+    }
+
+
+    .wrapper3 .text4{ 
+        display: none;
+    }
+
+
+    .wrapper3 {
+        position: relative;
+    }
+
+    .content4res {
+        background-image: url(../img/colored-guy-large.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 85%;
+        height: 90vh;
+        border-radius: 40px;
+        margin: auto;
+    }
+
+
+    .wrapper3 .text4res {
+        position: absolute;
+        display: flex;
+        align-items: start;
+        color: #fff;
+        left: 300px;
+        top: 200px;
+        z-index: 1;
+        font-size: 1.5em;
+        text-align: start;
+    }
+
+
+    .wrapper3 .link .btn2 {
+        font-size: .7em;
+        padding: 10px 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        color: #000;
+    }
+    
+
+    .wrapper4 .head1 {
+        font-size: 3em;
+        margin: 50px 0 30px 0;
+        padding: 50px 0 30px 0;
+    }
+
+
+    .wrapper4 .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+
+    .wrapper4 .row .link .btn2 {
+        font-size: 1em;
+    }
+    
+
+    .wrapper5 .row1 { 
+        padding: 0 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card1 h2, .card2 h2, .card3 h2 { font-size: 2em;}
+
+
+    .wrapper5 .card4 .card4img img{
+        display: none;
+    }
+
+    .wrapper5 .card4 {
+        height: 70vh;
+        background-image: url(../img/curly-iphones-medium.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+
+
+    .wrapper5 .card4 h3 {
+        font: 700 2em 'SF Pro Display';
+        text-align: center;
+    }
+    .wrapper5 .card4 p {
+        text-align: center;
+        color: #000;
+        font: 1.3em  'SF Pro Display';
+        padding-top: 20px;
+        
+    }
+
+    .wrapper6 .row2 {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px 15px ;
+    }
+
+    .magsafe-img{
+        width: 50%;
+        height: 50vh;
+    }
+
+    .magsafe-text {
+        margin-left: 5vw;
+    }
+
+    .magsafe-text h3 , .airtag-text h3, .airmax-text h3, .last-apple-text h3 {
+        font: bold 3em 'SF Pro Display';
+    }
+
+
+    .airtag-img {
+        background-image: url(../img/airtags-desktop.jpg);
+        width: 50%;
+        height: 50vh;
+    }
+
+
+    .wrapper6 .row2res {
+        flex-direction: column;
+    }
+
+    .airmax-img {
+        width: 62%;
+        height: 60vh;
+        background-image: url(../img/airmax-desktop.jpg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .wrapper7 .row3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .wrapper8 .row4 {
+        height: 80vh;
+    }
+
+
+    .wrapper8 .why-iphone1-img{
+        width: 62%;
+        height: 60vh;
+        background-image: url(../img/why-iphone1-large.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+
+    #IOS {
+        font-size: 5em ;
+    }
+
+    #IOS-p {
+        font-size: 3em;
+    }
+
+
+    .wrapper9 {
+        margin-top: -55px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .wrapper9 .row5 {
+        width: 50%;
+        height: 80vh;
+    }
+
+    .wrapper9 .why-iphone2-img {
+        width: 100%;
+        height: 60vh;
+        background-image: url(../img/why-iphone2-large.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+     }
+
+    
+    .wrapper9 .why-iphone3-img {
+        width: 100%;
+        height: 40vh;
+        background-image: url(../img/why-iphone3-largest.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .wrapper10 .row2reverse {
+        flex-direction: row-reverse;
+    }
+
+    .wrapper10 .get-more-iphone-img{
+        width: 50%;
+        height: 50vh;
+    }
+
+    .wrapper10 .get-more-iphone-text {
+        margin-right: 10vw;
+    }
+
+    .wrapper10 .get-more-iphone-text p{
+        font: bold 2.5em 'SF Pro Display';
+    }
+
+    .wrapper10 .row2 .last-apple-img { 
+        background-image: url(../img/last-apple-large.jpg);
+        width: 50%;
+        height: 50vh;
+    }
+
+    .wrapper10 .last-apple-text {
+        margin-left: 5vw;
+    } 
+
+    .wrapper10 .last-apple-text h3 {
+        font: bold 2.5em 'SF Pro Display'
+    }
+
+    .wrapper10 .last-apple-text p {
+        padding-top: 10px;
+        font: 1.3em  'SF Pro Display';
+    }
+
+
+
+}
